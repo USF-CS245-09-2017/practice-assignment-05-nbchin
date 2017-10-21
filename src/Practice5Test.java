@@ -24,7 +24,7 @@ public class Practice5Test {
 		return false;
 	}
 
-
+	
 	public boolean insertMultipleTest() {
 		// Insert copies of data into the tree. See whether the tree can keep track of the copies.
 		tree.insert("copy");
@@ -127,5 +127,5 @@ public class Practice5Test {
 		Practice5Test test = new Practice5Test();
 		test.runTests();
 	}
-
+	
 }
